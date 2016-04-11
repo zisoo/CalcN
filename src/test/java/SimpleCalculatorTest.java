@@ -28,6 +28,7 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.mul(10, 20);
 		assertEquals(200, calc.getResult());
+	}
 
 	public void testDiv() {
 		SimpleCalculator calc = new SimpleCalculator();
